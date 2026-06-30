@@ -1,10 +1,38 @@
+# dependencies
 node_modules/
+
+# next.js
 .next/
 out/
-data/
-.env
+next-env.d.ts
+
+# tauri (rust build output)
 src-tauri/target/
+
+# local data / sqlite
+data/
 *.db
 *.db-wal
 *.db-shm
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+
+# typescript / build cache
+*.tsbuildinfo
+
+# os / editor
 .DS_Store
+.vscode/
+.idea/
+
+# non-project local tooling (claude hook logging)
+log-hooks/
+log-hooks.zip
+tools/
