@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+data/
+.env
+src-tauri/target/
+*.db
+*.db-wal
+*.db-shm
+.DS_Store
